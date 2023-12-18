@@ -1,0 +1,128 @@
+/*nav bar*/
+.nav_collection{
+    gap: 33px;
+}
+#Search{
+    display: none;
+}
+
+#con2{
+    /* background-image: url("con2_img.jpg"); */
+    background-image: linear-gradient(rgb(57, 57, 157),rgb(57, 57, 157)),
+    url("con2_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    filter: saturate(23px);
+    /* height: 724px; */
+    aspect-ratio: 7/3;
+    width: 100%;
+}
+
+#con3{
+    margin-top: 70px;
+}
+.weired_items{
+    width: 300px;
+    aspect-ratio: 5/3;
+    /* height: 100px; */
+    border: 3px solid white;
+    border-radius: 44px 10px 15px 10px;
+    margin-bottom: -40px;
+}
+.weired_items>img{
+    margin-top: -15%;
+}
+.weired2_items{
+    width: 300px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px rgb(39, 36, 36);
+}
+
+#con5>div{
+    aspect-ratio: 1/1;
+    /* min-width: min-content;
+    max-width: 30vw; */
+}
+
+#con8{
+    background-image: url("background2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-blend-mode: color; */
+    /* height: 724px; */
+    aspect-ratio: 7/3;
+    width: 100%;
+}
+
+#con9{
+    left: 12.5%;
+}
+.comp1{
+    border-left: 5px solid yellow;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: white;
+    width: fit-content;
+    min-width: 150px;
+    height: 40px;
+}
+
+.col_border{
+    border: 2px solid #241B62;
+}
+.col_border1{
+    border: 1px solid #241B62;
+}
+
+
+.texts{
+    min-width: max-content;
+}
+
+.color1{
+    color: white;
+    width: min-content;
+    background-color:#241B62;
+    ;
+}
+.color2{
+    background-color: #703BE7;
+    color: white;
+}
+.color2_bg{
+    background-color: #703BE7;
+    /* color: white; */
+}
+.color3{
+    color: #703BE7;
+}
+.color4_bg{
+    background-color: #DEE8FF;
+}
+.color4{
+    color:  #DEE8FF;
+}
+.color5{
+    color: #241B62;
+}
+.color5_bg{
+    background-color: #241B62;
+}
+.color6{
+    color: #1D3C87;
+}
+.color6_bg{
+    background-color: #1D3C87;
+}
+.color6_bg:hover{
+    background-color: #1D3C87;
+}
+.color1:hover{
+    color: white;
+    background-color:#3b2c9c;
+    ;
+}
